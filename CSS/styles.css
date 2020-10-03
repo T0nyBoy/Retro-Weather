@@ -1,0 +1,51 @@
+* {
+    background-image: repeating-linear-gradient(to bottom,
+    rgba(255, 255, 255, 0.1) 0px,
+    transparent 4px);
+    background-color: rgb(33, 25, 255);
+    font-family: 'VT323', monospace;
+    font-size: 22px;
+    color: #f0fff8; /* almost white */
+    text-shadow: 0 0 1px #80ffc0, 0 0 4px #00ff66, 0 0 0px #00ff66, 0 0 0px #00ff66;
+}
+
+body{
+    animation-delay: 2s;
+}
+
+p{
+    text-align: center;
+    border:  4px #f0fff8 solid;
+    padding: 0.2em;
+}
+
+input{
+    border: none;
+    background-color: grey;
+    box-shadow: 5px 5px black;
+}
+
+
+button{
+    border: none;
+    background-color: green;
+    box-shadow: 5px 5px black;
+}
+
+#weatherData{
+    display: none;
+    border:  4px #f0fff8 solid;
+    margin-top: 0.5em;
+    padding: 0.5em;
+    padding-top: 0.1em;
+}
+
+#extendedWeather{
+    display: none;
+    border:  4px #f0fff8 solid;
+    padding: 0.5em;
+}
+
+h1{
+    font-size: 1.4em;
+}
