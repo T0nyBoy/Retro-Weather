@@ -10,7 +10,7 @@ class WeatherForecast{
         // async function
         async fetchAsync (whatCity) {
             //current forecast
-            URL=`https://api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=${key}`;
+            URL=`//api.openweathermap.org/data/2.5/weather?units=metric&q=${cityName}&appid=${key}`;
             // await response of fetch call
             let response = await fetch(URL);
             // only proceed once promise is resolved
@@ -31,7 +31,7 @@ class WeatherForecast{
         // async function
         async fetchForecastAsync (whatCity) {
             //5 days forecast
-            URL=`https://api.openweathermap.org/data/2.5/forecast?units=metric&q=${cityName}&appid=${key}`;
+            URL=`//api.openweathermap.org/data/2.5/forecast?units=metric&q=${cityName}&appid=${key}`;
             // await response of fetch call
             let response = await fetch(URL);
             // only proceed once promise is resolved
