@@ -4,12 +4,13 @@ const cityForm = document.querySelector("#cityName");
 const details = document.querySelector("#weatherData");
 const extendedWeather = document.querySelector("#extendedWeather");
 const btnSelect = document.querySelector("button");
-const forecast = new WeatherForecast();
+
 
 
 //----Getting the data from the API and updating the DOM----
 btnSelect.addEventListener("click", function(e){
     e.preventDefault();
+    const forecast = new WeatherForecast();
     cityName = cityForm.value.trim();
     details.style.display = "block";
     extendedWeather.style.display = "block";
